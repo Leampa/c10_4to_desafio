@@ -1,0 +1,21 @@
+.Formucontainer{
+
+    display:flex;
+    justify-content:center;
+    
+    
+    font-size: 23px;
+    color: black;
+    padding: 50px;
+}
+
+
+#grad{
+    background-color: lightblue;
+    transition: 2s;
+}
+
+#grad:hover{
+        background-image: linear-gradient(lightblue, rgba(0, 0, 255, 0.336));
+}
+
