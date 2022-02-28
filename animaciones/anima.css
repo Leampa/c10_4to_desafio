@@ -1,21 +1,60 @@
 .Formucontainer{
-
     display:flex;
     justify-content:center;
-    
-    
     font-size: 23px;
     color: black;
     padding: 50px;
 }
 
 
-#grad{
-    background-color: lightblue;
-    transition: 2s;
+/* animaciones */
+
+#grad {
+
+    background: rgb(74, 193, 233);
+    -webkit-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+  }
+  
+#grad:hover {
+    background-color: rgba(0, 0, 255, 0.418);
+    cursor: pointer;
+  }
+
+.infofx {
+    
+    transition: all 2s;       
+ }
+ .infofx:focus {
+    width: 200px;
+    font-size: 20px;
+ }
+
+ #satur {
+     transition: 2s;
+ }
+ #satur:hover {filter: sepia(60%);}
+
+
+ 
+
+.gallery__item:hover{
+border-radius:10%;
+box-shadow: 0px 0px 15px 15px lightblue;
 }
 
-#grad:hover{
-        background-image: linear-gradient(lightblue, rgba(0, 0, 255, 0.336));
+
+.gallery__item{
+    transition: 1s;
+}
+.gallery__item:hover {-webkit-transform:scale(0.9);transform:scale(0.9);}
+.gallery__item {overflow:hidden;}
+
+
+.footfx {
+    transition: 1s;
 }
 
+.footfx:hover {
+    transform: scale(1.15);
+}
