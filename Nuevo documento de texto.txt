@@ -1,9 +1,0 @@
-Los pasos serían :
-
-Creas una rama desde main o master
-Accedes a la rama con checkout
-Haces la animación
-Add a los cambios
-Commiteas esos cambios
-Te vas a la main y tiras merge para fusionar esa rama con main
-Tiras push así subis el contenido nuevo a github
